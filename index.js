@@ -99,7 +99,7 @@ const onxrloaded = () => {
     // Existing pipeline modules.
     XR8.GlTextureRenderer.pipelineModule(),      // Draws the camera feed.
     XR8.Threejs.pipelineModule(),                // Creates a ThreeJS AR Scene.
-    XR8.XrController.pipelineModule(),           // Enables SLAM tracking.
+    ///XR8.XrController.pipelineModule(),           // Enables SLAM tracking.
     XRExtras.AlmostThere.pipelineModule(),       // Detects unsupported browsers and gives hints.
     XRExtras.FullWindowCanvas.pipelineModule(),  // Modifies the canvas to fill the window.
     XRExtras.Loading.pipelineModule(),           // Manages the loading screen on startup.
