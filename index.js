@@ -54,7 +54,7 @@ const imageTargetPipelineModule = () => {
   // Hides the image frame when the target is no longer detected.
   const hideTarget = ({detail}) => {
     if (detail.name === 'Hokkaido') {
-      model.visible = false
+      //model.visible = false
     }
   }
 
