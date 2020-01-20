@@ -42,7 +42,7 @@ const imageTargetPipelineModule = () => {
   const showTarget = ({detail}) => {
     // When the image target named 'model-target' is detected, show 3D model.
     // This string must match the name of the image target uploaded to 8th Wall.
-    if (detail.name === 'model-target') {
+    if (detail.name === 'Hokkaido') {
       model.position.copy(detail.position)
       model.quaternion.copy(detail.rotation)
       model.scale.set(detail.scale, detail.scale, detail.scale)
@@ -53,7 +53,7 @@ const imageTargetPipelineModule = () => {
 
   // Hides the image frame when the target is no longer detected.
   const hideTarget = ({detail}) => {
-    if (detail.name === 'model-target') {
+    if (detail.name === 'Hokkaido') {
       model.visible = false
     }
   }
